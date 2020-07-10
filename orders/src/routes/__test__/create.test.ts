@@ -4,7 +4,7 @@ import { app } from "../../app";
 import { Ticket } from "../../models/ticket";
 import { Order } from "../../models/order";
 import { OrderStatus } from "@sjtickets/common";
-import { nats } from "../../../../tickets/src/nats-client";
+import { nats } from "../../nats-client";
 
 it("has a route handler listening to /api/orders for post requests", async () => {
   const response = await request(app).post("/api/orders").send({});
