@@ -12,7 +12,7 @@ const LandingPage = ({ tickets }) => {
               Title
             </th>
             <th scope="col">Price</th>
-            <th scope="col"></th>
+            <th scope="col"> </th>
           </tr>
         </thead>
         <tbody>
